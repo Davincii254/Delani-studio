@@ -1,0 +1,51 @@
+.first { 
+    position: absolute;
+    width:60%; 
+    height:300px; 
+} 
+img { 
+    position: center;
+    width:130%; 
+    height:140%; 
+} 
+.logo{
+    position: absolute;
+    top: 60%;
+    left: 65%;
+    height: 50px;
+    width: 70px;
+}
+.welcome{
+    position: absolute;
+    top: 75%;
+    left: 60%;
+}
+.welcome p{
+    color: white;
+    font-size: 150%;
+}
+.to{
+    position: absolute;
+    top: 90%;
+    left: 55%;
+}
+.to p{
+    color: white;
+    font-size: 150%;
+}
+.amazing{
+    position: absolute;
+    top: 105%;
+    left: 50%;
+}
+.amazing p{
+    color: white;
+    font-size: 50%;
+}
+.mouse{
+    position: absolute;
+    top: 120%;
+    left: 65%;
+    height: 30px;
+    width: 20px;
+}
