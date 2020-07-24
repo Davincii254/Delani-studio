@@ -1,5 +1,6 @@
 # IP3
 DELANI STUDIO
+
 This is a website that advertises the delani studio and shows the user just what the studio offers.
 
 Technologies Used
