@@ -1,0 +1,102 @@
+.first { 
+    position: absolute;
+    width:60%; 
+    height:300px; 
+    background-image:url(/images/backgrounds/h_img.jpg) ;
+    background-size: cover;
+    background-position: center;
+   
+} 
+img { 
+    position: center;
+    width:130%; 
+    height:140%; 
+} 
+.logo{
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    height: 50px;
+    width: 70px;
+}
+.welcome{
+    position: absolute;
+    top: 55%;
+    left: 60%;
+
+}
+.welcome p{
+    color: white;
+    font-size: 150%;
+}
+.to{
+    position: absolute;
+    top: 65%;
+    left: 55%;
+}
+.to p{
+    color: white;
+    font-size: 150%;
+}
+.amazing{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+}
+.amazing p{
+    color: white;
+    font-size: 50%;
+}
+.mouse{
+    position: absolute;
+    top: 90%;
+    left: 65%;
+    height: 30px;
+    width: 20px;
+}
+.about{
+    position: absolute;
+    text-align: center;
+    margin-top: 30%;
+}
+.comp{
+    margin-top: 50%;
+    width:100%; 
+    height:100%; 
+}
+.head{
+    position: absolute;
+    top: 125%;
+    left: 45%;
+}
+.head p{
+    color: white;
+    font-size: 150%;
+}
+.cont{
+    position: absolute;
+    top: 130%;
+    left: 15%;
+}
+.cont p{
+    color: white;
+    font-size: 90%;
+}
+.cont1{
+    position: absolute;
+    top: 135%;
+    left: 30%;
+}
+.cont1 p{
+    color: white;
+    font-size: 90%;
+}
+.cont2{
+    position: absolute;
+    top: 140%;
+    left: 25%;
+}
+.cont2 p{
+    color: white;
+    font-size: 90%;
+}
