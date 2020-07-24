@@ -195,3 +195,18 @@ img {
 .design-hidden3{
     display: none;
 }
+#one{
+    position: absolute;
+    top: 170%;
+    left: 20%;
+}
+#two{
+    position: absolute;
+    top: 170%;
+    left: 50%;
+}
+#three{
+    position: absolute;
+    top: 170%;
+    left: 70%;
+}
