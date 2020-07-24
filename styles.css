@@ -2,7 +2,7 @@
     position: absolute;
     width:60%; 
     height:60%; 
-    background-image:url(/images/backgrounds/h_img.jpg) ;
+    background-image:url(images/backgrounds/h_img.jpg) ;
     background-size: cover;
     text-align: justify;
     left: 20%;
@@ -65,7 +65,7 @@ img {
     position: absolute;
     width:70%; 
     height:60%; 
-    background-image: url(/images/backgrounds/s_image.jpg);
+    background-image: url(images/backgrounds/s_image.jpg);
     top: 100%;
     left: 20%;
 }
@@ -153,7 +153,7 @@ img {
 }
 .contact-us{
     position: absolute;
-    background-image: url(/images/backgrounds/c_image.jpg);
+    background-image: url(images/backgrounds/c_image.jpg);
     height: 60%;
     width: 70%;
     left: 20%;
