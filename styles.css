@@ -1,11 +1,11 @@
 .first { 
     position: absolute;
     width:60%; 
-    height:300px; 
-    background-image:url(/images/backgrounds/h_img.jpg) ;
+    height:60%; 
+    background-image:url(images/backgrounds/h_img.jpg) ;
     background-size: cover;
-    background-position: center;
-   
+    text-align: justify;
+    left: 20%;
 } 
 img { 
     position: center;
@@ -15,14 +15,14 @@ img {
 .logo{
     position: absolute;
     top: 40%;
-    left: 65%;
+    left: 45%;
     height: 50px;
     width: 70px;
 }
 .welcome{
     position: absolute;
     top: 55%;
-    left: 60%;
+    left: 43%;
 
 }
 .welcome p{
@@ -32,7 +32,7 @@ img {
 .to{
     position: absolute;
     top: 65%;
-    left: 55%;
+    left: 35%;
 }
 .to p{
     color: white;
@@ -41,7 +41,7 @@ img {
 .amazing{
     position: absolute;
     top: 80%;
-    left: 50%;
+    left: 33%;
 }
 .amazing p{
     color: white;
@@ -50,23 +50,28 @@ img {
 .mouse{
     position: absolute;
     top: 90%;
-    left: 65%;
+    left: 50%;
     height: 30px;
     width: 20px;
 }
 .about{
     position: absolute;
     text-align: center;
-    margin-top: 30%;
+    margin-top: 25%;
+    left: 15%;
 }
-.comp{
-    margin-top: 50%;
-    width:100%; 
-    height:100%; 
+
+.service{
+    position: absolute;
+    width:70%; 
+    height:60%; 
+    background-image: url(images/backgrounds/s_image.jpg);
+    top: 100%;
+    left: 20%;
 }
 .head{
     position: absolute;
-    top: 125%;
+    top: 10%;
     left: 45%;
 }
 .head p{
@@ -75,8 +80,8 @@ img {
 }
 .cont{
     position: absolute;
-    top: 130%;
-    left: 15%;
+    top: 20%;
+    left: 8%;
 }
 .cont p{
     color: white;
@@ -84,8 +89,8 @@ img {
 }
 .cont1{
     position: absolute;
-    top: 135%;
-    left: 30%;
+    top: 30%;
+    left: 25%;
 }
 .cont1 p{
     color: white;
@@ -93,10 +98,115 @@ img {
 }
 .cont2{
     position: absolute;
-    top: 140%;
-    left: 25%;
+    top: 40%;
+    left: 20%;
 }
 .cont2 p{
     color: white;
     font-size: 90%;
+}
+.head1{
+    text-align: center;
+}
+#image1{
+    position: absolute;
+    height: 10%;
+    width: 5%;
+    left: 25%;
+    top: 170%;
+}
+#image2{
+    position: absolute;
+    height: 10%;
+    width: 5%;
+    left: 50%;
+    top: 170%;
+}
+#image3{
+    position: absolute;
+    height: 10%;
+    width: 5%;
+    left: 70%;
+    top: 170%;
+}
+ h3{
+    text-align: center;
+    left: 30%;
+}
+.portfolio{
+    position: absolute;
+    top: 180%;
+    left: 30%;
+}
+.four{
+    display: flex;
+    width: 10%;
+    padding: 5px;
+    left: 70%;
+    top: 150%;
+}
+.fives{
+    display: flex;
+    width: 10%;
+    padding: 5px;
+    left: 70%;
+}
+.contact-us{
+    position: absolute;
+    background-image: url(images/backgrounds/c_image.jpg);
+    height: 60%;
+    width: 70%;
+    left: 20%;
+    top: 250%;
+}
+.contact-us h5{
+    color: white;
+    text-align: center;
+    font-size: 150%;
+}
+#name1{
+    width: 40%;
+    opacity: inherit;
+    resize: none;
+}
+#mail{
+    width: 40%;
+}
+#msg{
+    width: 80%;
+    height:40%;
+}
+.footer{
+    position: absolute;
+    display: flex;
+    width: 10%;
+    top: 320%;
+    left: 30%;
+}
+.footer p{
+    text-align: center;
+}
+.design-hidden1{
+    display: none;
+}
+.design-hidden2{
+    display: none;
+}
+.design-hidden3{
+    display: none;
+}
+#one{
+    position: absolute;
+    top: 170%;
+    left: 20%;
+}
+#two{
+    position: absolute;
+    top: 170%;
+    left: 50%;
+}
+#three{
+    position: absolute;
+    top: 170%;
+    left: 70%;
 }
