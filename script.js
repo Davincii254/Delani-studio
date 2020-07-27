@@ -25,3 +25,25 @@ $(document).ready(function() {
     });
   });
  
+     // Hover effect on portfolio section
+     $("#portfolio img").hover(
+      function() {
+        $(this).fadeTo(300, 0.6);
+      },
+      function() {
+        $(this).fadeTo(300, 1);
+      }
+    )
+  );
+      //submit form
+  function submitFormData() {
+    var name = $("input[type=text]").val();
+    var email = $("input[type=email]").val();
+    var message = $("textarea").val();
+  
+    if (!email || !name) {
+      alert("Kindly fill the form below");
+    } else {
+      alert("Hello " + name + ". \nWe have received your message. Thank you for reaching out to us.");
+    }
+  }
