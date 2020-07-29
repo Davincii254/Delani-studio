@@ -34,7 +34,7 @@ $(document).ready(function() {
         $(this).fadeTo(300, 1);
       }
     )
-  );
+  
       //submit form
   function submitFormData() {
     var name = $("input[type=text]").val();
