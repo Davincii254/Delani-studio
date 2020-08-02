@@ -105,9 +105,7 @@
     flex-wrap: wrap;
 }
 
-.mailchimp {
-    display: none;
-}
+
 ::placeholder {
     color: white;
     opacity: 2;
