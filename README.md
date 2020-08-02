@@ -6,7 +6,8 @@ This is a website that advertises the delani studio and shows the user just what
 Technologies Used
 HTML & CSS (Bootstrap)
 JavaScript
-Animate CSS
+
+
 Requirements
 JSFiddle or JavaScript Console
 
@@ -33,6 +34,7 @@ If you find a bug (the website couldn't handle the query and or gave undesired r
 If you'd like to request a new function, feel free to do so by opening an issue here. Please include sample queries and their corresponding results.
 
 Link to Live Site : [https:davincii254.github.io/delani-studio/]
+
 
 License
 
