@@ -1,212 +1,114 @@
-.first { 
-    position: absolute;
-    width:60%; 
-    height:60%; 
-    background-image:url(images/backgrounds/h_img.jpg) ;
+.container{
+    text-align: center;
+}
+
+.logo {
+    background-image: url(/images/backgrounds/h_img.jpg);
     background-size: cover;
-    text-align: justify;
-    left: 20%;
-} 
-img { 
-    position: center;
-    width:130%; 
-    height:140%; 
-} 
-.logo{
-    position: absolute;
-    top: 40%;
-    left: 45%;
-    height: 50px;
-    width: 70px;
-}
-.welcome{
-    position: absolute;
-    top: 55%;
-    left: 43%;
-
-}
-.welcome p{
+    padding-top: 20%;
+    padding-bottom: 10%;
+    height: 120%;
+    width: 100%;
     color: white;
-    font-size: 150%;
 }
-.to{
-    position: absolute;
-    top: 65%;
-    left: 35%;
-}
-.to p{
+.services {
+    background-image: url(/images/backgrounds/s_image.jpg);
+    background-size: cover;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    height: 70%;
     color: white;
-    font-size: 150%;
 }
-.amazing{
-    position: absolute;
-    top: 80%;
-    left: 33%;
+.about-us {
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
-.amazing p{
-    color: white;
-    font-size: 50%;
-}
-.mouse{
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    height: 30px;
-    width: 20px;
-}
-.about{
-    position: absolute;
-    text-align: center;
-    margin-top: 25%;
-    left: 15%;
+.portfolio {
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-.service{
-    position: absolute;
-    width:70%; 
-    height:60%; 
-    background-image: url(images/backgrounds/s_image.jpg);
-    top: 100%;
-    left: 20%;
+.what-we-do {
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
-.head{
-    position: absolute;
-    top: 10%;
-    left: 45%;
-}
-.head p{
-    color: white;
-    font-size: 150%;
-}
-.cont{
-    position: absolute;
-    top: 20%;
-    left: 8%;
-}
-.cont p{
-    color: white;
-    font-size: 90%;
-}
-.cont1{
-    position: absolute;
-    top: 30%;
-    left: 25%;
-}
-.cont1 p{
-    color: white;
-    font-size: 90%;
-}
-.cont2{
-    position: absolute;
-    top: 40%;
-    left: 20%;
-}
-.cont2 p{
-    color: white;
-    font-size: 90%;
-}
-.head1{
-    text-align: center;
-}
-#image1{
-    position: absolute;
-    height: 10%;
-    width: 5%;
-    left: 25%;
-    top: 170%;
-}
-#image2{
-    position: absolute;
-    height: 10%;
-    width: 5%;
-    left: 50%;
-    top: 170%;
-}
-#image3{
-    position: absolute;
-    height: 10%;
-    width: 5%;
-    left: 70%;
-    top: 170%;
-}
- h3{
-    text-align: center;
-    left: 30%;
-}
-.portfolio{
-    position: absolute;
-    top: 180%;
-    left: 30%;
-}
-.four{
-    display: flex;
-    width: 10%;
+
+
+
+.port {
+    position: relative;
     padding: 5px;
-    left: 70%;
-    top: 150%;
+    border: 5px;
+    margin: 5px;
+    text-align: center;
+    color:gold;
+    font-size: x-large;
 }
-.fives{
-    display: flex;
-    width: 10%;
-    padding: 5px;
-    left: 70%;
-}
-.contact-us{
-    position: absolute;
+
+
+.contacts {
     background-image: url(images/backgrounds/c_image.jpg);
-    height: 60%;
-    width: 70%;
-    left: 20%;
-    top: 250%;
-}
-.contact-us h5{
+    width: 100%;
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 10%;
     color: white;
-    text-align: center;
-    font-size: 150%;
+    align-items: center;
 }
-#name1{
-    width: 40%;
-    opacity: inherit;
-    resize: none;
-}
-#mail{
-    width: 40%;
-}
-#msg{
-    width: 80%;
-    height:40%;
-}
-.footer{
+.workCo {
     position: absolute;
-    display: flex;
-    width: 10%;
-    top: 320%;
-    left: 30%;
-}
-.footer p{
-    text-align: center;
-}
-.design-hidden1{
     display: none;
-}
-.design-hidden2{
-    display: none;
-}
-.design-hidden3{
-    display: none;
-}
-#one{
-    position: absolute;
-    top: 170%;
-    left: 20%;
-}
-#two{
-    position: absolute;
-    top: 170%;
+    width: 150px;
+    height: 150px;
+    top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid burlywood;
 }
-#three{
-    position: absolute;
-    top: 170%;
-    left: 70%;
+#designDetails {
+    display: none;
+}
+#developmentDetails {
+    display:none;
+}
+#managementDetails {
+    display: none;
+}
+
+#message {
+    background-color: transparent;
+    height: 200px;
+    width: 80%;
+    color: purple;
+    border: 1px solid lightyellow;
+
+}
+#email {
+    width: 40%;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+}
+#name {
+    width: 40%;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    margin: 10px;
+}
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mailchimp {
+    display: none;
+}
+::placeholder {
+    color: white;
+    opacity: 2;
 }
